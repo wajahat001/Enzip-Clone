@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background-color: #3275db;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    padding-top: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.blue {
+    background-color: #3275db;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 150px;
+
+}
+
+ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+header ul li img {
+    filter: invert(1);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 120vh;
+    background-color: #213c66;
+    background-image: url(https://ezitech.org/wp-content/uploads/2024/02/111.jpg);
+    filter: opacity(80%);
+    background-color: blue;
+}
+
+.main {
+    background-color: #3275db;
+    z-index: 10;
+}
+
+.nav {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 16vh;
+}
+
+.nav ul li {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav ul li:hover {
+    color: #3275db;
+}
+
+.nav ul {
+    padding-left: 65px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.test {
+    width: 500px;
+    height: 50px;
+}
+
+
+.heading {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: 25px;
+}
+
+.changing {
+    display: inline;
+}
+
+.msearch {
+    width: 50px;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+
+.heart:hover {
+    margin-top: 19px;
+    border-radius: 20px;
+    width: 20px;
+    height: 10px;
+    background-color: #00c691;
+}
+
+.heart img {
+    align-self: center;
+    filter: invert(1);
+}
+
+.s-search img {
+    filter: invert(1);
+    margin-left: -30px;
+    width: 30px;
+}
+
+.below {
+    font-weight: normal;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    padding-top: 50px;
+}
+
+#work {
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.images {
+    padding-top: 30px;
+    display: flex;
+    gap: 220px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#third {
+    padding-top: 30px;
+}
+
+.fields {
+    padding-top: 50px;
+}
+
+.skills {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    width: 130px;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.411);
+    cursor: pointer;
+}
+
+.skills li img {
+    text-align: center;
+}
+
+.skills li h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.summer {
+    display: flex;
+    margin-bottom: 250px;
+}
+
+#head {
+    color: black;
+
+}
+
+#p {
+    padding-top: 0;
+    color: black;
+    font-size: 15px;
+}
+
+.right {
+    position: relative;
+    border: 1px solid;
+    width: 550px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.right:hover {
+    height: 600px;
+}
+
+.left {
+
+    border: 1px solid;
+    width: 550px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.left:hover {
+    height: 600px;
+}
+
+.top {
+    width: 100%;
+    color: white;
+    background-color: #385bce;
+    height: 120px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
+    display: grid;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    width: 100%;
+    height: 430px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    left: 120px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3275db;
+}
+
+.courses img {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
+.courses a p {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 130px;
+    bottom: 60px;
+    font-size: 13px;
+    align-content: center;
+    text-align: center;
+    width: 400px;
+    height: 20px;
+}
+
+.price {
+    position: relative;
+    left: 300px;
+    top: 0px;
+}
+
+#last {
+    display: none;
+}
+
+.bottom :hover #last {
+    display: block;
+}
+
+.top2 {
+    width: 100%;
+    color: white;
+    background-color: #385bce;
+    height: 120px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
+    display: grid;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.bottom2 {
+    width: 100%;
+    height: 430px;
+}
+
+#last {
+    display: none;
+}
+
+.bottom2 :hover #last {
+    display: block;
+
+}
+
+.courses2 a p {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 130px;
+    bottom: 60px;
+    font-size: 13px;
+    align-content: center;
+    text-align: center;
+    width: 400px;
+    height: 20px;
+}
+
+.courses2 a p {
+    margin-top: 10px;
+}
+
+.courses2 img {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
+.price2 {
+    position: relative;
+    top: 15px;
+    text-align: right;
+}
+
+.l2 {
+    margin-top: -20px;
+}
+
+#pkr {
+    text-align: right;
+}
+
+.internship {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.box {
+    margin-top: 35px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.411);
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.btop {
+    background-color: #2557a0;
+    border-radius: 17px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    height: 130px;
+}
+
+.text {
+
+    color: rgb(255, 251, 251);
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+
+}
+
+#name {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.btop h4 {
+    cursor: pointer;
+}
+
+.btop img {
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.data ul {
+    padding-left: 0;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.data ul li {
+    margin-top: 20px;
+}
+
+.b {
+    width: 140px;
+    height: 40px;
+    background-color: #042D89;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+button {
+    border: none;
+}
